@@ -1,0 +1,82 @@
+@font-face {
+    font-family: yekan;
+    src: url(Yekan.ttf);
+}
+
+body {
+    font-family: yekan;
+    direction: rtl;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+}
+
+nav li {
+    font-size: 20px;
+}
+
+nav img {
+    width: 80px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 500px;
+}
+
+header img {
+    width: 250px;
+}
+
+header .text img {
+    width: 160px;
+}
+
+header .text {
+    text-align: center;
+}
+
+header .text h1 {
+    font-size: 60px;
+    color: brown;
+}
+
+header .text h3 {
+    color: brown;
+}
+
+.service {
+    display: flex;
+    gap: 50px;
+    padding: 0 10%;
+}
+
+.service .cart {
+    display: flex;
+    gap: 40px;
+    width: 70%;
+    border: solid 1px gray;
+    padding: 20px;
+    margin: 50px 0;
+    transition: transform 0.5s ease-in-out;
+
+}
+.service .cart:hover{
+    background-color: brown;
+    color: #fff;
+    box-shadow: 0 0 20px gray;
+    transform: translateX(-20px);
+}
+.cart img{
+    height: 100px;
+}
